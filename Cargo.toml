@@ -1,0 +1,13 @@
+[package]
+name = "rnc"
+version = "0.1.0"
+edition = "2024"
+description = "A small netcat-compatible TCP/UDP client and server written in Rust"
+license = "MIT"
+
+[[bin]]
+name = "rnc"
+path = "src/main.rs"
+
+[dependencies]
+socket2 = "0.6"
